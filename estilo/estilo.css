@@ -1,0 +1,40 @@
+body {
+	font-family:  "Courier New", "Monaco", "monospace";
+	/*margin-left: 5%;
+	margin-right: 5%; */
+	margin: 0;
+}
+
+.navegacao{
+	font-family: sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(105, 105, 105, 0.3); 
+	position: fixed;
+	width: 100%
+}
+
+.navegacao li {
+	font-size: 150%;
+	list-style: none;
+}	
+
+.navegacao  ul{
+	display: flex;
+    justify-content: space-between;
+    width: 25%;
+}
+
+.navegacao h1 {
+	width: 40%;
+}
+
+.navegacao a {
+	text-decoration:none;
+}
+
+.inicio img {
+	width: 1349px;
+    height: 550px;
+}
